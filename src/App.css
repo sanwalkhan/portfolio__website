@@ -1,0 +1,99 @@
+.home-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.home-heading {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.home-intro {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.home-links {
+  display: flex;
+  justify-content: center;
+}
+
+.home-link {
+  display: flex;
+  align-items: center;
+  margin: 0 1rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 0.25rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.home-link:hover {
+  background-color: #0056b3;
+}
+
+.home-icon {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+}
+.home-link:hover  {
+  color: #fff;
+}
+.home-link:hover {
+  text-decoration: none;
+}
+
+
+.home-name, .home-profession {
+  font-weight: bold;
+}
+
+.home-link:hover .home-icon:hover {
+  opacity: 0.7;
+}
+
+.home-link:hover .home-icon:hover {
+  visibility: visible;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1523471309099-3e4b6b4e8d0f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2Fud2FsJTIwa2hhbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  background-size: cover;
+}
+
+
+.home-image {
+  width: 200px;
+  height: auto;
+}
+
+.home-social {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.home-image {
+  border-radius: 50%;
+  width: 150px; /* adjust the size as per your requirement */
+  height: 150px; /* adjust the size as per your requirement */
+}
+
+.home-image {
+  width: 200px; /* set the width of the image */
+  height: 200px; /* set the height of the image */
+  object-fit: cover; /* scale the image to cover the entire element */
+  border-radius: 50%; /* create a circular border */
+  margin: 0 auto; /* center the image horizontally */
+  display: block; /* remove any default inline styles */
+}
